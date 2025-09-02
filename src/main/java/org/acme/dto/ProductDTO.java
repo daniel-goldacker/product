@@ -12,6 +12,8 @@ import lombok.extern.jackson.Jacksonized;
 @NoArgsConstructor
 @Jacksonized
 public class ProductDTO {
+    private Long id;
+    
     private String name;
 
     private String description;
